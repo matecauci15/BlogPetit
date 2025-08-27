@@ -1,86 +1,3 @@
-// import React from 'react';
-// import { blogPosts } from '../data/blogData';
-// import type { BlogPost } from '../data/blogData';
-// import SuramericanosBanner from './SuramericanosBanner';
-// import PostCard from './PostCard';
-
-// interface BlogHomeProps {
-//   onPostClick: (post: BlogPost) => void;
-// }
-
-// const BlogHome: React.FC<BlogHomeProps> = ({ onPostClick }) => {
-//   const featuredPost = blogPosts[0];
-//   const otherPosts = blogPosts.slice(1);
-
-//   return (
-//     <div className="min-h-screen bg-gradient-to-br from-gray-50 to-white">
-//       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-//         {/* Banner Suramericanos */}
-        
-//         {/* Hero Section */}
-//         <section className="text-center mb-16 grid grid-cols-2">
-//           <div className="max-w-4xl mx-auto">
-//             <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6 leading-tight">
-//               Blog de <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-blue-800">Petit Financieros</span>
-//             </h1>
-//             <p className="text-xl md:text-2xl text-gray-600 leading-relaxed max-w-3xl mx-auto">
-//               Descubrí consejos prácticos, estrategias efectivas y las últimas novedades para optimizar tus finanzas personales e invertir con confianza.
-//             </p>
-//           </div>
-//         <SuramericanosBanner />
-//         </section>
-
-//         {/* Featured Post */}
-//         <section className="mb-16">
-//           <div className="flex items-center mb-8">
-//             <h2 className="text-3xl font-bold text-gray-900">Artículo destacado</h2>
-//             <div className="ml-4 w-20 h-1 bg-gradient-to-r from-blue-500 to-blue-600 rounded-full"></div>
-//           </div>
-//           <PostCard post={featuredPost} isLarge={true} onClick={onPostClick} />
-//         </section>
-
-//         {/* Latest Posts */}
-//         <section className="mb-16">
-//           <div className="flex items-center mb-8">
-//             <h2 className="text-3xl font-bold text-gray-900">Últimos artículos</h2>
-//             <div className="ml-4 w-20 h-1 bg-gradient-to-r from-blue-500 to-blue-600 rounded-full"></div>
-//           </div>
-//           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
-//             {otherPosts.map(post => (
-//               <PostCard key={post.id} post={post} onClick={onPostClick} />
-//             ))}
-//           </div>
-//         </section>
-
-//         {/* Newsletter */}
-//         <section 
-//           className="rounded-3xl p-12 text-center text-white shadow-2xl"
-//           style={{ background: 'linear-gradient(135deg, #1e40af 0%, #3b82f6 50%, #60a5fa 100%)' }}
-//         >
-//           <div className="max-w-2xl mx-auto">
-//             <h3 className="text-3xl font-bold mb-4">¡No te pierdas nada!</h3>
-//             <p className="text-xl text-blue-100 mb-8 leading-relaxed">
-//               Suscribite a nuestro newsletter y recibí los mejores consejos financieros directamente en tu email.
-//             </p>
-//             <div className="flex flex-col sm:flex-row gap-4">
-//               <input
-//                 type="email"
-//                 placeholder="Ingresá tu email"
-//                 className="flex-1 px-6 py-4 rounded-xl text-gray-900 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium text-lg"
-//               />
-//               <button className="bg-white text-blue-600 px-8 py-4 rounded-xl font-bold hover:bg-gray-50 transition-all duration-200 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 text-lg">
-//                 Suscribirse
-//               </button>
-//             </div>
-//           </div>
-//         </section>
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default BlogHome;
-
 
 // import React, { useState } from 'react';
 // import { blogPosts } from '../data/blogData';
@@ -324,7 +241,6 @@
 
 // export default BlogHome;
 
-
 import React, { useState } from 'react';
 import { blogPosts } from '../data/blogData';
 import type { BlogPost } from '../data/blogData';
@@ -361,141 +277,148 @@ const BlogHome: React.FC<BlogHomeProps> = ({ onPostClick, onNewsletterSubscribe,
   };
 
   return (
-    <div className="min-h-screen bg-white">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        {/* Hero Section mejorado */}
-        <section className="text-center mb-20">
-          <div className="grid md:grid-cols-2 gap-12 items-center">
-            <div className="max-w-4xl">
-              <div className="inline-flex items-center px-4 py-2 rounded-full bg-blue-100 text-blue-800 text-sm font-semibold mb-6">
-                <span className="w-2 h-2 bg-blue-500 rounded-full mr-2 animate-pulse"></span>
-                Blog actualizado semanalmente
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        {/* Hero Section */}
+        <section className="pt-16 pb-10">
+          <div className="grid lg:grid-cols-2 gap-12 items-center">
+            <div>
+              {/* Badge */}
+              <div className="inline-flex items-center px-4 py-2 rounded-full bg-blue-50 text-blue-700 border border-blue-200 mb-8">
+                <div className="w-2 h-2 bg-blue-500 rounded-full mr-2"></div>
+                <span className="text-sm font-medium">Actualizado semanalmente</span>
               </div>
               
-              <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-8 leading-tight">
-                Blog de{' '}
-                <span className="text-blue-600">
-                  Petit Financieros
-                </span>
+              {/* Title */}
+              <h1 className="text-5xl lg:text-6xl font-semibold text-[#74a4ab] upp leading-tight mb-6">
+                Blog de Petit Financieros
               </h1>
               
-              <p className="text-xl md:text-2xl text-gray-600 leading-relaxed mb-8">
-                Descubrí consejos prácticos, estrategias efectivas y las últimas novedades para 
-                <span className="font-semibold text-blue-600"> optimizar tus finanzas personales </span>
+              <p className="text-xl text-gray-600 leading-relaxed mb-8 max-w-lg">
+                Consejos prácticos y estrategias comprobadas para mejorar tus finanzas personales 
                 e invertir con confianza.
               </p>
 
               {/* CTA buttons */}
-              <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
+              <div className="flex flex-col sm:flex-row gap-4 mb-12">
                 <button 
                   onClick={() => document.getElementById('featured-post')?.scrollIntoView({ behavior: 'smooth' })}
                   className="bg-blue-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors duration-200"
                 >
-                  Ver artículos destacados
+                  Ver artículos
                 </button>
                 <button 
                   onClick={() => document.getElementById('newsletter')?.scrollIntoView({ behavior: 'smooth' })}
-                  className="bg-gray-100 text-gray-900 px-8 py-3 rounded-lg font-semibold hover:bg-gray-200 transition-colors duration-200"
+                  className="bg-white text-gray-600 px-8 py-3 rounded-lg font-semibold border border-gray-300 hover:bg-gray-50 transition-colors duration-200"
                 >
-                  Suscribirse al newsletter
+                  Suscribirse
                 </button>
-              </div>
-
-              {/* Stats */}
-              <div className="flex justify-center space-x-8 text-sm text-gray-600">
-                <div className="text-center">
-                  <div className="text-2xl font-bold text-blue-600">{blogPosts.length}+</div>
-                  <div>Artículos</div>
-                </div>
-                <div className="text-center">
-                  <div className="text-2xl font-bold text-blue-600">10K+</div>
-                  <div>Lectores</div>
-                </div>
-                <div className="text-center">
-                  <div className="text-2xl font-bold text-blue-600">95%</div>
-                  <div>Satisfacción</div>
-                </div>
               </div>
             </div>
             
+            {/* Banner */}
             <div className="relative">
               <SuramericanosBanner />
             </div>
           </div>
         </section>
 
-        {/* Featured Post mejorado */}
-        <section id="featured-post" className="mb-20">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">Artículo destacado</h2>
-            <div className="w-16 h-1 bg-blue-600 rounded-full mx-auto"></div>
-            <p className="text-gray-600 mt-4">Lo más leído de la semana</p>
+        {/* Featured Post */}
+        <section id="featured-post" className="py-16">
+          <div className="mb-12">
+            <div className="flex items-center gap-3 mb-4">
+              <div className="w-8 h-1 bg-blue-600 rounded-full"></div>
+              <span className="text-sm font-semibold text-blue-600 uppercase tracking-wide">Destacado</span>
+            </div>
+            <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-3">
+              Artículo más leído
+            </h2>
+            <p className="text-gray-600 text-lg">
+              El contenido que más está ayudando a nuestros lectores
+            </p>
           </div>
           
           <PostCard post={featuredPost} isLarge={true} onClick={onPostClick} />
         </section>
 
-        {/* Latest Posts mejorados */}
-        <section className="mb-20">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">Últimos artículos</h2>
-            <div className="w-16 h-1 bg-blue-600 rounded-full mx-auto"></div>
-            <p className="text-gray-600 mt-4">Contenido fresco para tus finanzas</p>
+        {/* Latest Posts */}
+        <section id='latest-posts' className="py-16">
+          <div className="mb-12">
+            <div className="flex items-center gap-3 mb-4">
+              <div className="w-8 h-1 bg-green-500 rounded-full"></div>
+              <span className="text-sm font-semibold text-green-600 uppercase tracking-wide">Reciente</span>
+            </div>
+            <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-3">
+              Últimos artículos
+            </h2>
+            <p className="text-gray-600 text-lg">
+              Mantente al día con nuevo contenido financiero
+            </p>
           </div>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {otherPosts.map((post, ) => (
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+            {otherPosts.map((post) => (
               <PostCard key={post.id} post={post} onClick={onPostClick} />
             ))}
           </div>
         </section>
 
-        {/* Newsletter simplificado */}
-        <section 
-          id="newsletter"
-          className="rounded-xl p-8 text-center text-white shadow-lg bg-blue-600"
-        >
-          <div className="max-w-2xl mx-auto">
-            {isSubscribed ? (
-              <div>
-                <div className="text-4xl mb-4">🎉</div>
-                <h3 className="text-2xl font-bold mb-4">¡Genial! Ya estás suscripto</h3>
-                <p className="text-blue-100">
-                  Revisá tu email para confirmar la suscripción. ¡Pronto recibirás contenido exclusivo!
-                </p>
-              </div>
-            ) : (
-              <>
-                <h3 className="text-2xl font-bold mb-4">¡No te pierdas nada!</h3>
-                <p className="text-blue-100 mb-6">
-                  Únete a más de <span className="font-bold text-white">10,000 lectores</span> que reciben 
-                  consejos financieros exclusivos cada semana
-                </p>
-                
-                <form onSubmit={handleNewsletterSubmit} className="flex flex-col sm:flex-row gap-4 mb-6">
-                  <input
-                    type="email"
-                    value={email}
-                    onChange={(e) => setEmail(e.target.value)}
-                    placeholder="Ingresá tu email aquí..."
-                    className="flex-1 px-4 py-3 rounded-lg text-gray-900 focus:outline-none focus:ring-2 focus:ring-blue-300 font-medium"
-                    required
-                  />
-                  <button 
-                    type="submit"
-                    disabled={isLoading}
-                    className="bg-white text-blue-600 px-6 py-3 rounded-lg font-bold hover:bg-gray-50 transition-colors duration-200 disabled:opacity-50 disabled:cursor-not-allowed"
-                  >
-                    {isLoading ? 'Enviando...' : 'Suscribirse'}
-                  </button>
-                </form>
-                
-                <div className="flex items-center justify-center text-blue-100 text-sm">
-                  <span className="mr-2">🔒</span>
-                  <span>Sin spam. Cancelá cuando quieras.</span>
+        {/* Newsletter */}
+        <section id="newsletter" className="py-16">
+          <div className="bg-white rounded-2xl shadow-lg border border-gray-200 overflow-hidden">
+            <div className="px-8 py-12 text-center">
+              {isSubscribed ? (
+                <div className="max-w-md mx-auto">
+                  <div className="text-4xl mb-4">✅</div>
+                  <h3 className="text-2xl font-bold text-gray-900 mb-4">
+                    ¡Ya estás suscripto!
+                  </h3>
+                  <p className="text-gray-600">
+                    Revisá tu email para confirmar la suscripción. 
+                    Pronto recibirás contenido exclusivo.
+                  </p>
                 </div>
-              </>
-            )}
+              ) : (
+                <div className="max-w-2xl mx-auto space-y-6">
+                  {/* Header */}
+                  <div>
+                    <div className="inline-flex items-center px-3 py-1 rounded-full bg-blue-50 text-blue-700 text-sm font-medium mb-4">
+                      📧 Newsletter gratuito
+                    </div>
+                    
+                    <h3 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
+                      No te pierdas ningún consejo
+                    </h3>
+                    
+                    <p className="text-lg text-gray-600 mb-8">
+                      Únete a <strong className="text-gray-900">más de 10,000 lectores</strong> que 
+                      reciben tips exclusivos y análisis cada semana.
+                    </p>
+                  </div>
+
+                  {/* Form */}
+                  <form onSubmit={handleNewsletterSubmit} className="max-w-md mx-auto">
+                    <div className="flex flex-col sm:flex-row gap-3 mb-6">
+                      <input
+                        type="email"
+                        value={email}
+                        onChange={(e) => setEmail(e.target.value)}
+                        placeholder="tu@email.com"
+                        className="flex-1 px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                        required
+                      />
+                      <button 
+                        type="submit"
+                        disabled={isLoading}
+                        className="bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors duration-200 disabled:opacity-50 disabled:cursor-not-allowed"
+                      >
+                        {isLoading ? 'Enviando...' : 'Suscribirme'}
+                      </button>
+                    </div>
+                  </form> 
+                </div>
+              )}
+            </div>
           </div>
         </section>
       </div>
