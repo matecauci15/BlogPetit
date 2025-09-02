@@ -113,5 +113,79 @@
     readTime: '7 min',
     image: 'https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?w=800&h=400&fit=crop',
     tags: ['Dólar', 'CEDEARs', 'Inversiones', 'Largo Plazo']
+  },
+   {
+    id: 'dolar-cedears-ahorro-largo-plazo',
+    title: 'Analizamos el dólar y CEDEARs para ahorrar a largo plazo',
+    excerpt: 'Comparamos dos estrategias populares para resguardar y hacer crecer tus ahorros: la dolarización y la inversión en CEDEARs.',
+    content: `
+      <p style="color: #374151; line-height: 1.75; margin-bottom: 1.5rem;">Cuando hablamos de proteger nuestros ahorros a largo plazo en Argentina, dos opciones destacan: el dólar como reserva de valor y los CEDEARs como oportunidad de crecimiento. Cada una tiene sus ventajas y riesgos.</p>
+      
+      <h3 style="font-size: 1.25rem; font-weight: 700; color: #111827; margin-top: 2rem; margin-bottom: 1rem;">El dólar como refugio</h3>
+      <p style="color: #374151; line-height: 1.75; margin-bottom: 1.5rem;">El dólar estadounidense sigue siendo la moneda de referencia mundial y tradicionalmente ha servido como protección contra la devaluación del peso argentino. Su principal ventaja es la estabilidad relativa y la liquidez.</p>
+      
+      <ul style="margin-bottom: 1.5rem; padding-left: 1.5rem;">
+        <li style="color: #374151; line-height: 1.75; margin-bottom: 0.5rem;"><strong style="font-weight: 600; color: #111827;">Ventajas:</strong> Estabilidad, liquidez inmediata, protección contra la inflación local.</li>
+        <li style="color: #374151; line-height: 1.75; margin-bottom: 0.5rem;"><strong style="font-weight: 600; color: #111827;">Desventajas:</strong> No genera rendimientos, costos de custodia, riesgo de deflación del dólar.</li>
+      </ul>
+      
+      <h3 style="font-size: 1.25rem; font-weight: 700; color: #111827; margin-top: 2rem; margin-bottom: 1rem;">CEDEARs: acceso al mercado global</h3>
+      <p style="color: #374151; line-height: 1.75; margin-bottom: 1.5rem;">Los Certificados de Depósito Argentinos (CEDEARs) representan acciones de empresas extranjeras y permiten invertir en compañías globales desde Argentina, con la ventaja adicional de estar denominados en dólares.</p>
+      
+      <ul style="margin-bottom: 1.5rem; padding-left: 1.5rem;">
+        <li style="color: #374151; line-height: 1.75; margin-bottom: 0.5rem;"><strong style="font-weight: 600; color: #111827;">Ventajas:</strong> Potencial de crecimiento, diversificación global, dividendos en algunos casos.</li>
+        <li style="color: #374151; line-height: 1.75; margin-bottom: 0.5rem;"><strong style="font-weight: 600; color: #111827;">Desventajas:</strong> Volatilidad, riesgo de mercado, requiere conocimiento para seleccionar.</li>
+      </ul>
+      
+      <h3 style="font-size: 1.25rem; font-weight: 700; color: #111827; margin-top: 2rem; margin-bottom: 1rem;">Estrategia combinada</h3>
+      <p style="color: #374151; line-height: 1.75; margin-bottom: 1.5rem;">La clave está en no elegir una u otra opción, sino combinar ambas según tu perfil de riesgo y objetivos. Una cartera diversificada puede incluir tanto dólares para estabilidad como CEDEARs para crecimiento potencial.</p>
+      
+      <p style="color: #374151; line-height: 1.75; margin-bottom: 1.5rem;">Recordá siempre hacer tu propia investigación y consultar con profesionales antes de tomar decisiones de inversión importantes.</p>
+    `,
+    date: '2025-01-20',
+    readTime: '7 min',
+    image: 'https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?w=800&h=400&fit=crop',
+    tags: ['Dólar', 'CEDEARs', 'Inversiones', 'Largo Plazo']
+  },
+  {
+    id: 'que-hacer-si-te-roban-el-celular',
+    title: 'Qué hacer si te roban el telefono celular',
+    excerpt: 'Guía completa con los pasos esenciales para proteger tu información y cuentas digitales después del robo de tu dispositivo móvil.',
+    content: `
+      <p style="color: #374151; line-height: 1.75; margin-bottom: 1.5rem;">Los celulares guardan información clave sobre nuestra vida y trabajo. Por eso, es fundamental saber cómo reaccionar rápido si alguien te lo roba. Con un celular en sus manos, los delincuentes pueden acceder a tus billeteras virtuales, cuentas bancarias, correos electrónicos, redes sociales, y hasta suplantar tu identidad para cometer fraudes.</p>
+      
+      <h3 style="font-size: 1.25rem; font-weight: 700; color: #111827; margin-top: 2rem; margin-bottom: 1rem;">Preparación preventiva</h3>
+      <p style="color: #374151; line-height: 1.75; margin-bottom: 1.5rem;">Antes de pensar en el "qué hacer si ya pasó", es clave preparar tu dispositivo:</p>
+      
+      <ul style="margin-bottom: 1.5rem; padding-left: 1.5rem;">
+        <li style="color: #374151; line-height: 1.75; margin-bottom: 0.5rem;"><strong style="font-weight: 600; color: #111827;">Activá el bloqueo de pantalla:</strong> Usá clave numérica, patrón, huella dactilar o reconocimiento facial. Cuanto más rápido se active el bloqueo automático, mejor.</li>
+        <li style="color: #374151; line-height: 1.75; margin-bottom: 0.5rem;"><strong style="font-weight: 600; color: #111827;">Anotá tu IMEI:</strong> Marcá *#06# para ver tu código IMEI y guardalo en un lugar seguro. Este número permite bloquear el dispositivo en caso de robo.</li>
+      </ul>
+      
+      <h3 style="font-size: 1.25rem; font-weight: 700; color: #111827; margin-top: 2rem; margin-bottom: 1rem;">Qué hacer si ya te robaron el celular</h3>
+      
+      <h4 style="font-size: 1.1rem; font-weight: 600; color: #111827; margin-top: 1.5rem; margin-bottom: 0.75rem;">1. Contactá a tu compañía de telefonía móvil</h4>
+      <p style="color: #374151; line-height: 1.75; margin-bottom: 1.5rem;">Bloqueá inmediatamente el chip (SIM) y el dispositivo (IMEI). Esto evita que usen tu línea y que el celular funcione con otros chips.</p>
+      
+      <h4 style="font-size: 1.1rem; font-weight: 600; color: #111827; margin-top: 1.5rem; margin-bottom: 0.75rem;">2. Cambiá todas tus contraseñas</h4>
+      <p style="color: #374151; line-height: 1.75; margin-bottom: 1.5rem;">Desde una computadora, accedé a tu cuenta de correo principal y cambiá la contraseña. Empezá por el correo vinculado a billeteras virtuales, bancos y redes sociales.</p>
+      
+      <h4 style="font-size: 1.1rem; font-weight: 600; color: #111827; margin-top: 1.5rem; margin-bottom: 0.75rem;">3. Reportá el robo a tus billeteras virtuales y bancos</h4>
+      <p style="color: #374151; line-height: 1.75; margin-bottom: 1.5rem;">Contactá los canales oficiales verificados para solicitar el bloqueo de cuentas y tarjetas. También desvinculá tus tarjetas de apps de transporte, delivery y streaming.</p>
+      
+      <h4 style="font-size: 1.1rem; font-weight: 600; color: #111827; margin-top: 1.5rem; margin-bottom: 0.75rem;">4. Avisá a tus familiares y amigos</h4>
+      <p style="color: #374151; line-height: 1.75; margin-bottom: 1.5rem;">Informales a tus contactos para que estén atentos a posibles intentos de estafa en los que alguien intente hacerse pasar por vos.</p>
+      
+      <h4 style="font-size: 1.1rem; font-weight: 600; color: #111827; margin-top: 1.5rem; margin-bottom: 0.75rem;">5. Hacé la denuncia en la comisaría</h4>
+      <p style="color: #374151; line-height: 1.75; margin-bottom: 1.5rem;">Presentá una denuncia en la comisaría más cercana o de manera online. Este comprobante es importante para trámites posteriores y posibles reclamos de seguro.</p>
+      
+      <p style="color: #374151; line-height: 1.75; margin-bottom: 1.5rem;">Recordá que la rapidez en estos pasos es fundamental para minimizar los riesgos y proteger tu información personal y financiera.</p>
+    `,
+    date: '2024-11-11',
+    readTime: '1 min',
+    image: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&h=400&fit=crop',
+    tags: ['Seguridad', 'Celular', 'Prevención', 'Fintech']
   }
   ];
+
+  
