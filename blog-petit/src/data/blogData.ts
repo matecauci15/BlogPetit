@@ -114,39 +114,39 @@
     image: 'https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?w=800&h=400&fit=crop',
     tags: ['Dólar', 'CEDEARs', 'Inversiones', 'Largo Plazo']
   },
-   {
-    id: 'dolar-cedears-ahorro-largo-plazo',
-    title: 'Analizamos el dólar y CEDEARs para ahorrar a largo plazo',
-    excerpt: 'Comparamos dos estrategias populares para resguardar y hacer crecer tus ahorros: la dolarización y la inversión en CEDEARs.',
-    content: `
-      <p style="color: #374151; line-height: 1.75; margin-bottom: 1.5rem;">Cuando hablamos de proteger nuestros ahorros a largo plazo en Argentina, dos opciones destacan: el dólar como reserva de valor y los CEDEARs como oportunidad de crecimiento. Cada una tiene sus ventajas y riesgos.</p>
+  //  {
+  //   id: 'dolar-cedears-ahorro-largo-plazo',
+  //   title: 'Analizamos el dólar y CEDEARs para ahorrar a largo plazo',
+  //   excerpt: 'Comparamos dos estrategias populares para resguardar y hacer crecer tus ahorros: la dolarización y la inversión en CEDEARs.',
+  //   content: `
+  //     <p style="color: #374151; line-height: 1.75; margin-bottom: 1.5rem;">Cuando hablamos de proteger nuestros ahorros a largo plazo en Argentina, dos opciones destacan: el dólar como reserva de valor y los CEDEARs como oportunidad de crecimiento. Cada una tiene sus ventajas y riesgos.</p>
       
-      <h3 style="font-size: 1.25rem; font-weight: 700; color: #111827; margin-top: 2rem; margin-bottom: 1rem;">El dólar como refugio</h3>
-      <p style="color: #374151; line-height: 1.75; margin-bottom: 1.5rem;">El dólar estadounidense sigue siendo la moneda de referencia mundial y tradicionalmente ha servido como protección contra la devaluación del peso argentino. Su principal ventaja es la estabilidad relativa y la liquidez.</p>
+  //     <h3 style="font-size: 1.25rem; font-weight: 700; color: #111827; margin-top: 2rem; margin-bottom: 1rem;">El dólar como refugio</h3>
+  //     <p style="color: #374151; line-height: 1.75; margin-bottom: 1.5rem;">El dólar estadounidense sigue siendo la moneda de referencia mundial y tradicionalmente ha servido como protección contra la devaluación del peso argentino. Su principal ventaja es la estabilidad relativa y la liquidez.</p>
       
-      <ul style="margin-bottom: 1.5rem; padding-left: 1.5rem;">
-        <li style="color: #374151; line-height: 1.75; margin-bottom: 0.5rem;"><strong style="font-weight: 600; color: #111827;">Ventajas:</strong> Estabilidad, liquidez inmediata, protección contra la inflación local.</li>
-        <li style="color: #374151; line-height: 1.75; margin-bottom: 0.5rem;"><strong style="font-weight: 600; color: #111827;">Desventajas:</strong> No genera rendimientos, costos de custodia, riesgo de deflación del dólar.</li>
-      </ul>
+  //     <ul style="margin-bottom: 1.5rem; padding-left: 1.5rem;">
+  //       <li style="color: #374151; line-height: 1.75; margin-bottom: 0.5rem;"><strong style="font-weight: 600; color: #111827;">Ventajas:</strong> Estabilidad, liquidez inmediata, protección contra la inflación local.</li>
+  //       <li style="color: #374151; line-height: 1.75; margin-bottom: 0.5rem;"><strong style="font-weight: 600; color: #111827;">Desventajas:</strong> No genera rendimientos, costos de custodia, riesgo de deflación del dólar.</li>
+  //     </ul>
       
-      <h3 style="font-size: 1.25rem; font-weight: 700; color: #111827; margin-top: 2rem; margin-bottom: 1rem;">CEDEARs: acceso al mercado global</h3>
-      <p style="color: #374151; line-height: 1.75; margin-bottom: 1.5rem;">Los Certificados de Depósito Argentinos (CEDEARs) representan acciones de empresas extranjeras y permiten invertir en compañías globales desde Argentina, con la ventaja adicional de estar denominados en dólares.</p>
+  //     <h3 style="font-size: 1.25rem; font-weight: 700; color: #111827; margin-top: 2rem; margin-bottom: 1rem;">CEDEARs: acceso al mercado global</h3>
+  //     <p style="color: #374151; line-height: 1.75; margin-bottom: 1.5rem;">Los Certificados de Depósito Argentinos (CEDEARs) representan acciones de empresas extranjeras y permiten invertir en compañías globales desde Argentina, con la ventaja adicional de estar denominados en dólares.</p>
       
-      <ul style="margin-bottom: 1.5rem; padding-left: 1.5rem;">
-        <li style="color: #374151; line-height: 1.75; margin-bottom: 0.5rem;"><strong style="font-weight: 600; color: #111827;">Ventajas:</strong> Potencial de crecimiento, diversificación global, dividendos en algunos casos.</li>
-        <li style="color: #374151; line-height: 1.75; margin-bottom: 0.5rem;"><strong style="font-weight: 600; color: #111827;">Desventajas:</strong> Volatilidad, riesgo de mercado, requiere conocimiento para seleccionar.</li>
-      </ul>
+  //     <ul style="margin-bottom: 1.5rem; padding-left: 1.5rem;">
+  //       <li style="color: #374151; line-height: 1.75; margin-bottom: 0.5rem;"><strong style="font-weight: 600; color: #111827;">Ventajas:</strong> Potencial de crecimiento, diversificación global, dividendos en algunos casos.</li>
+  //       <li style="color: #374151; line-height: 1.75; margin-bottom: 0.5rem;"><strong style="font-weight: 600; color: #111827;">Desventajas:</strong> Volatilidad, riesgo de mercado, requiere conocimiento para seleccionar.</li>
+  //     </ul>
       
-      <h3 style="font-size: 1.25rem; font-weight: 700; color: #111827; margin-top: 2rem; margin-bottom: 1rem;">Estrategia combinada</h3>
-      <p style="color: #374151; line-height: 1.75; margin-bottom: 1.5rem;">La clave está en no elegir una u otra opción, sino combinar ambas según tu perfil de riesgo y objetivos. Una cartera diversificada puede incluir tanto dólares para estabilidad como CEDEARs para crecimiento potencial.</p>
+  //     <h3 style="font-size: 1.25rem; font-weight: 700; color: #111827; margin-top: 2rem; margin-bottom: 1rem;">Estrategia combinada</h3>
+  //     <p style="color: #374151; line-height: 1.75; margin-bottom: 1.5rem;">La clave está en no elegir una u otra opción, sino combinar ambas según tu perfil de riesgo y objetivos. Una cartera diversificada puede incluir tanto dólares para estabilidad como CEDEARs para crecimiento potencial.</p>
       
-      <p style="color: #374151; line-height: 1.75; margin-bottom: 1.5rem;">Recordá siempre hacer tu propia investigación y consultar con profesionales antes de tomar decisiones de inversión importantes.</p>
-    `,
-    date: '2025-01-20',
-    readTime: '7 min',
-    image: 'https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?w=800&h=400&fit=crop',
-    tags: ['Dólar', 'CEDEARs', 'Inversiones', 'Largo Plazo']
-  },
+  //     <p style="color: #374151; line-height: 1.75; margin-bottom: 1.5rem;">Recordá siempre hacer tu propia investigación y consultar con profesionales antes de tomar decisiones de inversión importantes.</p>
+  //   `,
+  //   date: '2025-01-20',
+  //   readTime: '7 min',
+  //   image: 'https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?w=800&h=400&fit=crop',
+  //   tags: ['Dólar', 'CEDEARs', 'Inversiones', 'Largo Plazo']
+  // },
   {
     id: 'que-hacer-si-te-roban-el-celular',
     title: 'Qué hacer si te roban el telefono celular',
