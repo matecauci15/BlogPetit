@@ -114,39 +114,6 @@
     image: 'https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?w=800&h=400&fit=crop',
     tags: ['Dólar', 'CEDEARs', 'Inversiones', 'Largo Plazo']
   },
-  //  {
-  //   id: 'dolar-cedears-ahorro-largo-plazo',
-  //   title: 'Analizamos el dólar y CEDEARs para ahorrar a largo plazo',
-  //   excerpt: 'Comparamos dos estrategias populares para resguardar y hacer crecer tus ahorros: la dolarización y la inversión en CEDEARs.',
-  //   content: `
-  //     <p style="color: #374151; line-height: 1.75; margin-bottom: 1.5rem;">Cuando hablamos de proteger nuestros ahorros a largo plazo en Argentina, dos opciones destacan: el dólar como reserva de valor y los CEDEARs como oportunidad de crecimiento. Cada una tiene sus ventajas y riesgos.</p>
-      
-  //     <h3 style="font-size: 1.25rem; font-weight: 700; color: #111827; margin-top: 2rem; margin-bottom: 1rem;">El dólar como refugio</h3>
-  //     <p style="color: #374151; line-height: 1.75; margin-bottom: 1.5rem;">El dólar estadounidense sigue siendo la moneda de referencia mundial y tradicionalmente ha servido como protección contra la devaluación del peso argentino. Su principal ventaja es la estabilidad relativa y la liquidez.</p>
-      
-  //     <ul style="margin-bottom: 1.5rem; padding-left: 1.5rem;">
-  //       <li style="color: #374151; line-height: 1.75; margin-bottom: 0.5rem;"><strong style="font-weight: 600; color: #111827;">Ventajas:</strong> Estabilidad, liquidez inmediata, protección contra la inflación local.</li>
-  //       <li style="color: #374151; line-height: 1.75; margin-bottom: 0.5rem;"><strong style="font-weight: 600; color: #111827;">Desventajas:</strong> No genera rendimientos, costos de custodia, riesgo de deflación del dólar.</li>
-  //     </ul>
-      
-  //     <h3 style="font-size: 1.25rem; font-weight: 700; color: #111827; margin-top: 2rem; margin-bottom: 1rem;">CEDEARs: acceso al mercado global</h3>
-  //     <p style="color: #374151; line-height: 1.75; margin-bottom: 1.5rem;">Los Certificados de Depósito Argentinos (CEDEARs) representan acciones de empresas extranjeras y permiten invertir en compañías globales desde Argentina, con la ventaja adicional de estar denominados en dólares.</p>
-      
-  //     <ul style="margin-bottom: 1.5rem; padding-left: 1.5rem;">
-  //       <li style="color: #374151; line-height: 1.75; margin-bottom: 0.5rem;"><strong style="font-weight: 600; color: #111827;">Ventajas:</strong> Potencial de crecimiento, diversificación global, dividendos en algunos casos.</li>
-  //       <li style="color: #374151; line-height: 1.75; margin-bottom: 0.5rem;"><strong style="font-weight: 600; color: #111827;">Desventajas:</strong> Volatilidad, riesgo de mercado, requiere conocimiento para seleccionar.</li>
-  //     </ul>
-      
-  //     <h3 style="font-size: 1.25rem; font-weight: 700; color: #111827; margin-top: 2rem; margin-bottom: 1rem;">Estrategia combinada</h3>
-  //     <p style="color: #374151; line-height: 1.75; margin-bottom: 1.5rem;">La clave está en no elegir una u otra opción, sino combinar ambas según tu perfil de riesgo y objetivos. Una cartera diversificada puede incluir tanto dólares para estabilidad como CEDEARs para crecimiento potencial.</p>
-      
-  //     <p style="color: #374151; line-height: 1.75; margin-bottom: 1.5rem;">Recordá siempre hacer tu propia investigación y consultar con profesionales antes de tomar decisiones de inversión importantes.</p>
-  //   `,
-  //   date: '2025-01-20',
-  //   readTime: '7 min',
-  //   image: 'https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?w=800&h=400&fit=crop',
-  //   tags: ['Dólar', 'CEDEARs', 'Inversiones', 'Largo Plazo']
-  // },
   {
     id: 'que-hacer-si-te-roban-el-celular',
     title: 'Qué hacer si te roban el telefono celular',
@@ -185,7 +152,84 @@
     readTime: '1 min',
     image: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&h=400&fit=crop',
     tags: ['Seguridad', 'Celular', 'Prevención', 'Fintech']
-  }
+  },
+  {
+    id: 'portfolio-inversiones-solidas-2025',
+    title: 'Portfolio de Inversiones Sólidas: Qué Deberían Tener en 2025',
+    excerpt: 'Construí un portfolio de inversiones robusto y diversificado que pueda resistir la volatilidad del mercado argentino.',
+    content: `
+      <p style="color: #374151; line-height: 1.75; margin-bottom: 1.5rem;">Un portfolio de inversiones sólido es fundamental para proteger y hacer crecer tu patrimonio en el tiempo. En Argentina, donde la volatilidad económica es una constante, es crucial contar con una estrategia de inversión bien estructurada.</p>
+      
+      <h3 style="font-size: 1.25rem; font-weight: 700; color: #111827; margin-top: 2rem; margin-bottom: 1rem;">Componentes esenciales de un portfolio sólido</h3>
+      
+      <h4 style="font-size: 1.125rem; font-weight: 600; color: #111827; margin-top: 1.5rem; margin-bottom: 0.75rem;">1. Base líquida y segura (20-30%)</h4>
+      <p style="color: #374151; line-height: 1.75; margin-bottom: 1rem;">Todo portfolio necesita una base de liquidez inmediata:</p>
+      <ul style="margin-bottom: 1.5rem; padding-left: 1.5rem;">
+        <li style="color: #374151; line-height: 1.75; margin-bottom: 0.5rem;">Caja de ahorro en pesos para gastos inmediatos</li>
+        <li style="color: #374151; line-height: 1.75; margin-bottom: 0.5rem;">Plazo fijo tradicional o cuenta remunerada</li>
+        <li style="color: #374151; line-height: 1.75; margin-bottom: 0.5rem;">Fondo común de inversión money market</li>
+      </ul>
+      
+      <h4 style="font-size: 1.125rem; font-weight: 600; color: #111827; margin-top: 1.5rem; margin-bottom: 0.75rem;">2. Protección contra inflación (25-35%)</h4>
+      <p style="color: #374151; line-height: 1.75; margin-bottom: 1rem;">Instrumentos que mantengan el poder adquisitivo:</p>
+      <ul style="margin-bottom: 1.5rem; padding-left: 1.5rem;">
+        <li style="color: #374151; line-height: 1.75; margin-bottom: 0.5rem;"><strong style="font-weight: 600; color: #111827;">Plazo fijo UVA:</strong> Ajustado por inflación más tasa adicional</li>
+        <li style="color: #374151; line-height: 1.75; margin-bottom: 0.5rem;"><strong style="font-weight: 600; color: #111827;">Bonos CER:</strong> Títulos públicos ajustados por CER</li>
+        <li style="color: #374151; line-height: 1.75; margin-bottom: 0.5rem;"><strong style="font-weight: 600; color: #111827;">FCIs de inflación:</strong> Fondos especializados en estos instrumentos</li>
+      </ul>
+      
+      <h4 style="font-size: 1.125rem; font-weight: 600; color: #111827; margin-top: 1.5rem; margin-bottom: 0.75rem;">3. Diversificación en dólares (20-30%)</h4>
+      <p style="color: #374151; line-height: 1.75; margin-bottom: 1rem;">Cobertura contra devaluación:</p>
+      <ul style="margin-bottom: 1.5rem; padding-left: 1.5rem;">
+        <li style="color: #374151; line-height: 1.75; margin-bottom: 0.5rem;">Bonos del Tesoro estadounidense (mediante MEP)</li>
+        <li style="color: #374151; line-height: 1.75; margin-bottom: 0.5rem;">Fondos comunes de inversión en dólares</li>
+        <li style="color: #374151; line-height: 1.75; margin-bottom: 0.5rem;">ETFs internacionales (acceso via brokers locales)</li>
+        <li style="color: #374151; line-height: 1.75; margin-bottom: 0.5rem;">Dólar MEP para diversificación de monedas</li>
+      </ul>
+      
+      <h4 style="font-size: 1.125rem; font-weight: 600; color: #111827; margin-top: 1.5rem; margin-bottom: 0.75rem;">4. Crecimiento a largo plazo (15-25%)</h4>
+      <p style="color: #374151; line-height: 1.75; margin-bottom: 1rem;">Activos con potencial de valorización:</p>
+      <ul style="margin-bottom: 1.5rem; padding-left: 1.5rem;">
+        <li style="color: #374151; line-height: 1.75; margin-bottom: 0.5rem;"><strong style="font-weight: 600; color: #111827;">Acciones argentinas:</strong> Empresas sólidas con dividendos</li>
+        <li style="color: #374151; line-height: 1.75; margin-bottom: 0.5rem;"><strong style="font-weight: 600; color: #111827;">CEDEARs:</strong> Acceso a empresas internacionales</li>
+        <li style="color: #374151; line-height: 1.75; margin-bottom: 0.5rem;"><strong style="font-weight: 600; color: #111827;">Real Estate:</strong> REITs o fondos inmobiliarios</li>
+      </ul>
+      
+      <h3 style="font-size: 1.25rem; font-weight: 700; color: #111827; margin-top: 2rem; margin-bottom: 1rem;">Principios fundamentales</h3>
+      
+      <div style="background-color: #F3F4F6; border-left: 4px solid #10B981; padding: 1rem; margin: 1.5rem 0;">
+        <h4 style="font-size: 1.125rem; font-weight: 600; color: #111827; margin-bottom: 0.5rem;">Diversificación inteligente</h4>
+        <p style="color: #374151; line-height: 1.75; margin: 0;">No pongas más del 10% en un solo activo. La diversificación reduce el riesgo sin sacrificar rentabilidad.</p>
+      </div>
+      
+      <div style="background-color: #FEF3C7; border-left: 4px solid #F59E0B; padding: 1rem; margin: 1.5rem 0;">
+        <h4 style="font-size: 1.125rem; font-weight: 600; color: #111827; margin-bottom: 0.5rem;">Horizonte temporal</h4>
+        <p style="color: #374151; line-height: 1.75; margin: 0;">Define claramente tus objetivos: ¿necesitás el dinero en 6 meses, 2 años o 10 años? Esto determina tu estrategia.</p>
+      </div>
+      
+      <div style="background-color: #EDE9FE; border-left: 4px solid #8B5CF6; padding: 1rem; margin: 1.5rem 0;">
+        <h4 style="font-size: 1.125rem; font-weight: 600; color: #111827; margin-bottom: 0.5rem;">Rebalanceo periódico</h4>
+        <p style="color: #374151; line-height: 1.75; margin: 0;">Revisá tu portfolio cada 3-6 meses y ajustá las proporciones según tus objetivos y el contexto del mercado.</p>
+      </div>
+      
+      <h3 style="font-size: 1.25rem; font-weight: 700; color: #111827; margin-top: 2rem; margin-bottom: 1rem;">Errores a evitar</h3>
+      <ul style="margin-bottom: 1.5rem; padding-left: 1.5rem;">
+        <li style="color: #374151; line-height: 1.75; margin-bottom: 0.5rem;"><strong style="font-weight: 600; color: #DC2626;">Concentración excesiva:</strong> Poner todo en un solo tipo de inversión</li>
+        <li style="color: #374151; line-height: 1.75; margin-bottom: 0.5rem;"><strong style="font-weight: 600; color: #DC2626;">Trading especulativo:</strong> Tratar de "adivinar" el mercado a corto plazo</li>
+        <li style="color: #374151; line-height: 1.75; margin-bottom: 0.5rem;"><strong style="font-weight: 600; color: #DC2626;">Ignorar los costos:</strong> No considerar comisiones y gastos de mantenimiento</li>
+        <li style="color: #374151; line-height: 1.75; margin-bottom: 0.5rem;"><strong style="font-weight: 600; color: #DC2626;">Decisiones emocionales:</strong> Vender en pánico o comprar por euforia</li>
+      </ul>
+      
+      <p style="color: #374151; line-height: 1.75; margin-bottom: 1.5rem;">Recordá que construir un portfolio sólido es un proceso gradual. Empezá con lo básico, educate continuamente y ajustá tu estrategia según cambien tus circunstancias y el contexto económico.</p>
+      
+      <div style="background-color: #DBEAFE; border: 1px solid #93C5FD; border-radius: 0.5rem; padding: 1rem; margin: 1.5rem 0;">
+        <p style="color: #1E40AF; line-height: 1.75; margin: 0; font-style: italic;"><strong>Consejo final:</strong> Antes de tomar cualquier decisión de inversión, consultá con un asesor financiero matriculado que pueda evaluar tu situación particular.</p>
+      </div>
+    `,
+    date: '2025-01-10',
+    readTime: '8 min',
+    image: '  https://plus.unsplash.com/premium_photo-1664476845274-27c2dabdd7f0?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    tags: ['Portfolio', 'Inversiones', 'Diversificación', 'Argentina', 'Finanzas']
+  },
   ];
 
-  
