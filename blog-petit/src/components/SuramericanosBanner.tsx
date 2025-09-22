@@ -5,7 +5,7 @@ const SuramericanosBanner = () => {
   return (
     <div className="flex justify-center mb-8">
       <a 
-        href="https://www.santafe.gob.ar/noticias/noticia/283789/"
+        href="https://www.santafe.gob.ar/noticias/noticia/283999/"
         target="_blank"
         rel="noopener noreferrer"
         className="block group"
