@@ -230,6 +230,58 @@
     readTime: '8 min',
     image: '  https://plus.unsplash.com/premium_photo-1664476845274-27c2dabdd7f0?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     tags: ['Portfolio', 'Inversiones', 'Diversificación', 'Argentina', 'Finanzas']
-  },
+  },    
+  {
+id: 'como-armar-presupuesto-personal-uala',
+title: 'Cómo armar un presupuesto personal en muy pocos pasos',
+excerpt: 'Guía completa para crear y mantener un presupuesto personal efectivo que te ayude a tomar control de tus finanzas.',
+content: `
+<p style="color: #374151; line-height: 1.75; margin-bottom: 1.5rem;">El presupuesto personal es la planificación de nuestros ingresos y egresos durante un período de tiempo. Dicho de otra forma, es un plan escrito que nos va a ayudar a saber y decidir cómo gastaremos nuestra plata durante ese tiempo.</p>
+<h3 style="font-size: 1.25rem; font-weight: 700; color: #111827; margin-top: 2rem; margin-bottom: 1rem;">Para qué sirve un presupuesto personal</h3>
+<p style="color: #374151; line-height: 1.75; margin-bottom: 1.5rem;">Contar con un presupuesto nos permite hacer mejor uso de la plata y poder lograr los objetivos que definamos al principio, como comprar una moto, una bici, armar un viaje o lo que deseemos.</p>
+
+<p style="color: #374151; line-height: 1.75; margin-bottom: 1.5rem;">Es un proceso dinámico que requiere de controles y actualizaciones, dado que pueden surgir imprevistos y estimaciones que deban ajustarse a la realidad. El presupuesto es la herramienta necesaria e imprescindible para tomar el control de las finanzas personales.</p>
+
+<h3 style="font-size: 1.25rem; font-weight: 700; color: #111827; margin-top: 2rem; margin-bottom: 1rem;">Ventajas de un presupuesto personal</h3>
+<ul style="margin-bottom: 1.5rem; padding-left: 1.5rem;">
+  <li style="color: #374151; line-height: 1.75; margin-bottom: 0.5rem;"><strong style="font-weight: 600; color: #111827;">Visualización amplia:</strong> El presupuesto personal ayuda a visualizar nuestra plata en un panorama más amplio</li>
+  <li style="color: #374151; line-height: 1.75; margin-bottom: 0.5rem;"><strong style="font-weight: 600; color: #111827;">Inteligencia financiera:</strong> Nos permite mejorar nuestra inteligencia financiera</li>
+  <li style="color: #374151; line-height: 1.75; margin-bottom: 0.5rem;"><strong style="font-weight: 600; color: #111827;">Control de gastos:</strong> Podemos visualizar claramente en qué gastamos nuestro dinero</li>
+  <li style="color: #374151; line-height: 1.75; margin-bottom: 0.5rem;"><strong style="font-weight: 600; color: #111827;">Priorización:</strong> Permite priorizar y reducir gastos</li>
+  <li style="color: #374151; line-height: 1.75; margin-bottom: 0.5rem;"><strong style="font-weight: 600; color: #111827;">Mejores decisiones:</strong> Ayuda a tomar mejores decisiones para lograr cumplir con nuestros objetivos</li>
+</ul>
+
+<h3 style="font-size: 1.25rem; font-weight: 700; color: #111827; margin-top: 2rem; margin-bottom: 1rem;">Paso a Paso para armar un presupuesto personal</h3>
+
+<h4 style="font-size: 1.1rem; font-weight: 600; color: #111827; margin-top: 1.5rem; margin-bottom: 0.75rem;">1. Identificar el horizonte temporal</h4>
+<p style="color: #374151; line-height: 1.75; margin-bottom: 1.5rem;">Durante este proceso tenemos que hacer una autoevaluación para poder identificar y recopilar toda la información posible sobre nuestros ingresos y egresos, sean estimaciones o reales, durante el período de tiempo que elijamos. Siempre suele ser más fácil identificar los ingresos que los egresos, pero ambos son igual de importantes.</p>
+
+<h4 style="font-size: 1.1rem; font-weight: 600; color: #111827; margin-top: 1.5rem; margin-bottom: 0.75rem;">2. Registrar los ingresos</h4>
+<p style="color: #374151; line-height: 1.75; margin-bottom: 1.5rem;">En este punto tendremos que anotar todos nuestros ingresos. Cuando percibimos un sueldo fijo tenemos que registrar nuestro sueldo neto, es decir, lo que cobramos en mano. No debemos olvidarnos de los aguinaldos y en caso de cobrar bonos o adicionales también incluirlos en el mes que corresponda.</p>
+
+<p style="color: #374151; line-height: 1.75; margin-bottom: 1.5rem;">Cuando no tenemos un sueldo fijo, lo que podemos hacer es estimar un promedio de los últimos tres meses para tomar como referencia. Es importante incorporar aquellos ingresos variables como pueden ser las inversiones que hagamos.</p>
+
+<h4 style="font-size: 1.1rem; font-weight: 600; color: #111827; margin-top: 1.5rem; margin-bottom: 0.75rem;">3. Registrar los gastos</h4>
+<p style="color: #374151; line-height: 1.75; margin-bottom: 1.5rem;">Al igual que con los ingresos, es muy importante en esta etapa registrar tanto nuestros gastos fijos como nuestros gastos variables. Tenemos que clasificar los gastos según diferentes rubros, como por ejemplo alquiler, alimentación, pago de servicios, transporte, etc.</p>
+
+<p style="color: #374151; line-height: 1.75; margin-bottom: 1.5rem;">Tampoco tenemos que dejar de lado aquellos gastos hormiga, se llama así a los gastos pequeños que muchas veces no tenemos en cuenta, pero que terminan afectando nuestro presupuesto, ellos pueden ser tomarse un café, comprarse un alfajor y otros. Por más pequeños que parezcan, al sumarlo todos a fin de mes terminan teniendo un peso relevante.</p>
+
+<h4 style="font-size: 1.1rem; font-weight: 600; color: #111827; margin-top: 1.5rem; margin-bottom: 0.75rem;">4. Evaluación y saldo disponible</h4>
+<p style="color: #374151; line-height: 1.75; margin-bottom: 1.5rem;">Una vez hecho este primer trabajo nos tenemos que tomar el tiempo de hacer un análisis en profundidad y ver si es necesario hacer algún ajuste al presupuesto inicial. Una vez sumados todos los ingresos y egresos tendremos un saldo final, el mismo debería ser positivo y tendremos que analizar si es suficiente para el objetivo que hemos determinado.</p>
+
+<p style="color: #374151; line-height: 1.75; margin-bottom: 1.5rem;">Es en este momento donde debemos determinar si hay algún gasto que podamos recortar o reducir. Normalmente, el ingreso suele ser fijo y solo podemos trabajar sobre los gastos que tenemos.</p>
+
+<h4 style="font-size: 1.1rem; font-weight: 600; color: #111827; margin-top: 1.5rem; margin-bottom: 0.75rem;">5. Seguimiento y control</h4>
+<p style="color: #374151; line-height: 1.75; margin-bottom: 1.5rem;">Con el presupuesto final ya terminado, es importante hacer un control mensual del mismo. El seguimiento y control deben convertirse en hábitos y, si no se puede cumplir al pie de la letra, debe ser revisado periódicamente y tenerlo siempre como guía o referencia. Mientras mayor sea nuestra disciplina y compromiso, mejores serán los resultados que obtendremos.</p>
+
+<h4 style="font-size: 1.1rem; font-weight: 600; color: #111827; margin-top: 1.5rem; margin-bottom: 0.75rem;">6. Actualizaciones y flexibilidad</h4>
+<p style="color: #374151; line-height: 1.75; margin-bottom: 1.5rem;">Como mencionamos anteriormente el presupuesto es dinámico y debe ser flexible, lo importante es que en caso de que el presupuesto no represente la realidad debemos actualizarlo para que sea lo más fehaciente posible y nos ayude a cumplir con nuestros objetivos. En un país con inflación como lo es la Argentina, es importante que actualicemos tanto nuestros ingresos y egresos considerando esta variable.</p>
+
+<h3 style="font-size: 1.25rem; font-weight: 700; color: #111827; margin-top: 2rem; margin-bottom: 1rem;">Excel para armar un presupuesto</h3>
+<p style="color: #374151; line-height: 1.75; margin-bottom: 1.5rem;">Para que sea aún más sencillo armar tu primer presupuesto personal, te acercamos una planilla de Excel que podés descargar y comenzar a utilizar desde el blog de Ualá.</p>`, 
+date: '2025-01-25', 
+readTime: '8 min', 
+image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&h=400&fit=crop', 
+tags: ['Presupuesto', 'Finanzas', 'Planificación', 'Ualá'] }
   ];
 
